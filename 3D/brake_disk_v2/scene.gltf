@@ -1,0 +1,425 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6721,
+      "max": [
+        1.0000029802322388,
+        1.000002384185791,
+        0.3262914717197418
+      ],
+      "min": [
+        -1.0000054836273193,
+        -1.0000015497207642,
+        -0.09549608826637268
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 80652,
+      "componentType": 5126,
+      "count": 6721,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6721,
+      "max": [
+        0.875,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 23910,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 161304,
+      "componentType": 5126,
+      "count": 638,
+      "max": [
+        1.1825417280197144,
+        2.795564889907837,
+        0.6700515747070313
+      ],
+      "min": [
+        -0.9804778695106506,
+        -2.6034181118011475,
+        -0.6699695587158203
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 168960,
+      "componentType": 5126,
+      "count": 638,
+      "max": [
+        0.999386727809906,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.999759316444397,
+        -0.9999125599861145,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 53768,
+      "componentType": 5126,
+      "count": 638,
+      "max": [
+        4.703306198120117,
+        4.599321365356445
+      ],
+      "min": [
+        -3.703306198120117,
+        -3.6214303970336914
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 95640,
+      "componentType": 5125,
+      "count": 1524,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 176616,
+      "componentType": 5126,
+      "count": 12,
+      "max": [
+        0.677113950252533,
+        0.8629547357559204,
+        0.4150981903076172
+      ],
+      "min": [
+        -0.6464719176292419,
+        -0.8139153122901917,
+        -0.41501617431640625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 176760,
+      "componentType": 5126,
+      "count": 12,
+      "max": [
+        4.008287746160022e-08,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -8.907305115712916e-09,
+        0.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 58872,
+      "componentType": 5126,
+      "count": 12,
+      "max": [
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 101736,
+      "componentType": 5125,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "the_86_guy (https://sketchfab.com/the_86_guy)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/brake-disk-v2-bd45b1bf11884cfabfa667dc8004414e",
+      "title": "Brake Disk V2"
+    },
+    "generator": "Sketchfab-11.8.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 101832,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 58968,
+      "byteOffset": 101832,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 176904,
+      "byteOffset": 160800,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 337704,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Disk",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "roughnessFactor": 0.3300393995220984
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Caliper",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Brake_pads",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Disk_Disk_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Caliper_Caliper_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Caliper_Brake pads_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.006378330290317535,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.4162738293949174e-18,
+        -0.006378330290317535,
+        0.0,
+        0.0,
+        0.006378330290317535,
+        1.4162738293949174e-18,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "5b146c2ff4b14912823e6cb19bca48ba.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        27.310049901840493,
+        -1.4751185306253094,
+        -2.8185836704343203e-15,
+        0.0,
+        1.4751185306253078,
+        27.31004990184047,
+        1.1955003167254593e-06,
+        0.0,
+        -6.447947604664417e-08,
+        -1.19376019554156e-06,
+        27.34985923767087,
+        0.0,
+        -0.044354796409606934,
+        28.970766067504883,
+        0.8749768137931824,
+        1.0
+      ],
+      "name": "Disk"
+    },
+    {
+      "mesh": 0,
+      "name": "Disk_Disk_0"
+    },
+    {
+      "children": [
+        6,
+        7
+      ],
+      "matrix": [
+        7.538673796520342,
+        -0.8796136642813921,
+        -2.709082596951184e-06,
+        0.0,
+        0.8796142721704481,
+        7.538679006384215,
+        3.6347750004353096e-06,
+        0.0,
+        2.2695805215310386e-06,
+        -3.924247610681086e-06,
+        7.589819908140735,
+        0.0,
+        21.358562469482422,
+        27.199748992919922,
+        0.7802292704582214,
+        1.0
+      ],
+      "name": "Caliper"
+    },
+    {
+      "mesh": 1,
+      "name": "Caliper_Caliper_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Caliper_Brake pads_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

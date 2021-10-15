@@ -1,0 +1,11 @@
+Model Information:
+* title:	Brake Disk V2
+* source:	https://sketchfab.com/3d-models/brake-disk-v2-bd45b1bf11884cfabfa667dc8004414e
+* author:	the_86_guy (https://sketchfab.com/the_86_guy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Brake Disk V2" (https://sketchfab.com/3d-models/brake-disk-v2-bd45b1bf11884cfabfa667dc8004414e) by the_86_guy (https://sketchfab.com/the_86_guy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
