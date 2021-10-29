@@ -1,0 +1,109 @@
+<html>
+  
+  
+<head>
+  <!-- import aframe and then ar.js with image tracking / location based features -->
+<script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+
+
+<!-- <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+
+<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script> -->
+
+<style>
+  .arjs-loader {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .arjs-loader div {
+    text-align: center;
+    font-size: 1.25em;
+    color: white;
+  }
+</style>
+
+<script type="text/javascript"> 
+ 
+</script>
+</head>
+<body>
+  <!-- minimal loader shown until image descriptors are loaded -->
+<!--   <div class="arjs-loader">
+    <div>Loading, please wait...</div>
+  </div> -->
+
+   <!-- a-frame scene -->
+  <a-scene
+    vr-mode-ui="enabled: false;"
+    renderer="logarithmicDepthBuffer: true; 
+            alpha: true;
+            antialias: true;
+                   colorManagement: true;
+                   sortObjects: true;
+                   physicallyCorrectLights: true;
+                   precision: high;
+                   maxCanvasWidth: 1920;
+                   maxCanvasHeight: 1920;"
+    embedded
+    arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false; labelingMode: white_region;"
+
+  >
+    <a-assets>     
+     <!--  <a-asset-item id="mini" src="https://arjs-cors-proxy.herokuapp.com/https://kwikdevteam.github.io/kdtar/3D/mini/scene.gltf"></a-asset-item> -->
+      <!-- <a-asset-item id="brakeDisc" src="https://arjs-cors-proxy.herokuapp.com/https://kwikdevteam.github.io/kdtar/3D/brake_disk_v2/scene.gltf"></a-asset-item> -->
+    </a-assets>
+
+  <!-- <a-sky color="#6dcff6"></a-sky> -->
+    <a-entity light="type: ambient; color: #f0f0f0; intensity: 3"></a-entity>
+    <a-entity light="type: directional; color: #eeeeee; intensity: 2.8" position="0 1 0" rotation="0 -180 0"></a-entity>
+    <a-entity light="type: directional; color: #fff799; intensity: 2.8" position="1 -1 0" rotation="0 -180 0"></a-entity>
+
+   <!--  <a-nft
+      type="nft"      
+      url="https://arjs-cors-proxy.herokuapp.com/https://kwikdevteam.github.io/kdtar/Patterns/MOT/MOT"
+      smooth="true"
+      smoothCount="5"
+      smoothTolerance=".001"
+      smoothThreshold="5" mininft 
+      id="mininft"
+    > -->
+        <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
+       <!--  <a-entity gltf-model="#mini" scale="1 1 1" rotation="0 90 -35" position="100 200 0"shadow="cast: true" shadow="receive: true" id="miniModel" class="mini" raycaster-listen ></a-entity> -->
+        
+   <!--  </a-nft> -->
+    
+    <a-marker preset='hiro'>
+        <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
+        <a-entity gltf-model="https://arjs-cors-proxy.herokuapp.com/https://kwikdevteam.github.io/kdtar/3D/brake_disk_v2/scene.gltf" scale="2 2 2" rotation="-100 0 130" position="0 0 0" animation="property: rotation; to:360 0 0; dur: 5000; easing: linear; loop: true" shadow="cast: true" shadow="receive: true" ></a-entity>
+
+    </a-marker>
+     <a-entity camera></a-entity>
+
+    <!-- static camera that moves according to the device movemenents -->
+    <!-- <a-entity id="rig" position="20 10 25">
+        <a-entity id="camera" camera look-controls>
+        <a-entity cursor="fuse: true; fuseTimeout: 500"
+                position="0 0 -1"
+                geometry="primitive: ring; radiusInner: 0.01; radiusOuter: 0.02"
+                material="color: white; shader: flat">
+          </a-entity>
+      </a-entity>
+    </a-entity> -->
+  </a-scene>
+
+</body>
+
+</html>
