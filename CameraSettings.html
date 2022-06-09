@@ -1,0 +1,17 @@
+ <a-entity light="type: directional; color: #eeeeee; intensity: 2.3" position="10 0 45" rotation="0 0 45"></a-entity>    
+
+     <a-assets>     
+     <!--  <a-asset-item id="mini" src="https://arjs-cors-proxy.herokuapp.com/https://kwikdevteam.github.io/kdtar/3D/mini/scene.gltf"></a-asset-item> -->
+      <!-- <a-asset-item id="brakeDisc" src="https://arjs-cors-proxy.herokuapp.com/https://kwikdevteam.github.io/kdtar/3D/brake_disk_v2/scene.gltf"></a-asset-item> -->
+    </a-assets>
+
+
+        <a-entity id="rig" position="0 0 0">
+        <a-entity id="camera" camera look-controls>
+        <a-entity cursor="fuse: true; fuseTimeout: 500"
+                position="0 0 -1"
+                geometry="primitive: ring; radiusInner: 0.01; radiusOuter: 0.02"
+                material="color: white; shader: flat">
+          </a-entity>
+      </a-entity>
+    </a-entity>
